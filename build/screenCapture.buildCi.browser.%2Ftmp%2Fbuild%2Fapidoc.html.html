@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/buunguyen/mongoose-deep-populate"
-
-    >mongoose-deep-populate (v3.0.0)</a>
+    <a href="https://github.com/buunguyen/mongoose-deep-populate">mongoose-deep-populate (v3.0.0)</a>
 </h1>
 <h4>Mongoose plugin to enable deep population of nested models</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.mongoose-deep-populate">module mongoose-deep-populate</a><ol>
 
@@ -87,7 +80,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">mongoose-deep-populate = function (mongoose) {
   if (mongoose == null) {
-    throw new Error(&#x27;An instance of mongoose needs passing in&#x27;)
+    throw new Error('An instance of mongoose needs passing in')
   }
 
   patchQueryPrototype()
@@ -114,11 +107,11 @@
      */
     Query.prototype.deepPopulate = function (paths, options) {
       if (this.model.schema.methods.deepPopulate == null) {
-        throw new Error(&#x27;Plugin was not installed&#x27;)
+        throw new Error('Plugin was not installed')
       }
 
       if (this._deepPopulates) {
-        throw new Error(&#x27;deepPopulate was already invoked&#x27;)
+        throw new Error('deepPopulate was already invoked')
       }
 
       this._deepPopulates = {paths: paths, options: options}
@@ -243,3 +236,4 @@
     ]
 </div>
 </div>
+</body></html>
