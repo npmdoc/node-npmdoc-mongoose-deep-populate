@@ -1,9 +1,14 @@
-# api documentation for  [mongoose-deep-populate (v3.0.0)](https://github.com/buunguyen/mongoose-deep-populate)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongoose-deep-populate.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongoose-deep-populate) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongoose-deep-populate.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongoose-deep-populate)
+# npmdoc-mongoose-deep-populate
+
+#### api documentation for  [mongoose-deep-populate (v3.0.0)](https://github.com/buunguyen/mongoose-deep-populate)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongoose-deep-populate.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongoose-deep-populate) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongoose-deep-populate.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongoose-deep-populate)
+
 #### Mongoose plugin to enable deep population of nested models
 
-[![NPM](https://nodei.co/npm/mongoose-deep-populate.png?downloads=true)](https://www.npmjs.com/package/mongoose-deep-populate)
+[![NPM](https://nodei.co/npm/mongoose-deep-populate.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongoose-deep-populate)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-mongoose-deep-populate_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-mongoose-deep-populate/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Buu Nguyen",
-        "email": "buunguyen@gmail.com",
         "url": "https://github.com/buunguyen"
     },
     "bugs": {
@@ -67,13 +71,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "buunguyen",
-            "email": "buunguyen@gmail.com"
+            "name": "buunguyen"
         }
     ],
     "name": "mongoose-deep-populate",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/buunguyen/mongoose-deep-populate.git"
@@ -84,16 +86,6 @@
     "version": "3.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module mongoose-deep-populate](#apidoc.module.mongoose-deep-populate)
-
-
-
-# <a name="apidoc.module.mongoose-deep-populate"></a>[module mongoose-deep-populate](#apidoc.module.mongoose-deep-populate)
 
 
 
